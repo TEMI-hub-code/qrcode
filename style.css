@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.contents{
+     width: 310px;
+     background: white;
+     border-radius: 10px;
+     padding: 15px;
+}
+
+.contents h2{
+    color: hsl(218, 44%, 22%);
+}
+
+.contents p{
+    color: hsl(216, 15%, 48%);
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.contents img{
+    border-radius: 10px;
+    width: 97%;
+
+}
